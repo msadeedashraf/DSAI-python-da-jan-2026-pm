@@ -15,8 +15,7 @@
 - In the cmd shell install the ipython
 
 ```
-pip install ipython ipykernel
-
+pip install ipython
 ```
 
 ## To activate the virtual environment
@@ -51,7 +50,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 - verify the venv is activated
 
-![](/Assets/activated-venv.png)
+![active-env](/Assets/activated-venv.png)
 
 
 - create a test.ipynb file 
