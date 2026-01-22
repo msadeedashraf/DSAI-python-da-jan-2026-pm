@@ -18,3 +18,28 @@
 pip install ipython ipykernel
 
 ```
+
+```
+mkdir test-app
+
+cd test-app
+
+python -m venv myenv
+
+.\myenv\Scripts\activate
+
+```
+
+- if you have issue with activating the environment 
+![issue](/Assets/script-execution-issue.png)
+
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+
+
+
+
+
+
