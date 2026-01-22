@@ -19,6 +19,10 @@ pip install ipython ipykernel
 
 ```
 
+## To activate the virtual environment
+
+- at the root folder (my-code)
+
 ```
 mkdir test-app
 
@@ -31,11 +35,28 @@ python -m venv myenv
 ```
 
 - if you have issue with activating the environment 
+  
 ![issue](/Assets/script-execution-issue.png)
+
 
 ```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+
+- if prompted say yes
+
+```
+.\myenv\Scripts\activate
+```
+
+- verify the venv is activated
+
+![](/Assets/activated-venv.png)
+
+
+- create a test.ipynb file 
+
+
 
 
 
