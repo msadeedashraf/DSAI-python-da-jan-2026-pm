@@ -1,0 +1,358 @@
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm> ipython
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: We can't show you all tips on Windows as sometimes Unicode characters crash the Windows console, please help us debug it.
+
+In [1]: import numpy as np
+---------------------------------------------------------------------------
+ModuleNotFoundError                       Traceback (most recent call last)
+Cell In[1], line 1
+----> 1 import numpy as np
+
+ModuleNotFoundError: No module named 'numpy'
+
+In [2]: exit
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm> cd .\test-app\
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app>                                                                              
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> 
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> dir
+
+
+    Directory: D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026-01-21   9:50 PM                myenv
+
+
+PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> .\myenv\Scripts\activate
+(myenv) PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app>
+(myenv) PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app>
+(myenv) PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> pip install numpy
+Collecting numpy
+  Downloading numpy-2.4.1-cp313-cp313-win_amd64.whl.metadata (6.6 kB)
+Downloading numpy-2.4.1-cp313-cp313-win_amd64.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 7.0 MB/s eta 0:00:00
+Installing collected packages: numpy
+Successfully installed numpy-2.4.1
+
+[notice] A new release of pip is available: 24.3.1 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+(myenv) PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> ipython
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+Type 'copyright', 'credits' or 'license' for more information
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+Out[3]:
+[1.8279763926101984,
+ -1.3646433116204308,
+ -0.1344926170863274,
+ -0.5709006183245042,
+ -0.20924769791458023,
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+Out[3]:
+[1.8279763926101984,
+ -1.3646433116204308,
+ -0.1344926170863274,
+ -0.5709006183245042,
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+Out[3]:
+[1.8279763926101984,
+ -1.3646433116204308,
+ -0.1344926170863274,
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+Out[3]:
+[1.8279763926101984,
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+
+In [1]: import numpy as np
+
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+In [2]: data = [np.random.standard_normal() for i in range(7)]
+
+In [3]: data
+
+In [3]: data
+Out[3]:
+[1.8279763926101984,
+ -1.3646433116204308,
+ -0.1344926170863274,
+ -0.5709006183245042,
+ -0.20924769791458023,
+ -0.24689027774898098,
+ -1.0703177150896748]
+
+In [4]: an_apple = 27
+
+In [5]: an_example = 42
+
+In [6]: an_apple
+Out[6]: 27
+
+In [7]: b = [4,2,3]
+
+In [8]: b.sort()
+
+In [9]: b
+Out[9]: [2, 3, 4]
+
+In [10]: b.insert(6)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[10], line 1
+----> 1 b.insert(6)
+
+TypeError: insert expected 2 arguments, got 1
+
+In [11]: b.insert(-1, 6)
+
+In [12]: b
+Out[12]: [2, 3, 6, 4]
+
+In [13]: b.sort()
+
+In [14]: b
+Out[14]: [2, 3, 4, 6]
+
+In [15]: import datetime
+
+In [16]: datetime.time()
+Out[16]: datetime.time(0, 0)
+
+In [17]: datetime.time
+Out[17]: datetime.time
+
+In [18]: datetime.date.day.today()
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[18], line 1
+----> 1 datetime.date.day.today()
+
+AttributeError: 'getset_descriptor' object has no attribute 'today'
+
+In [19]: now = datetime.datetime.now()
+
+In [20]: now
+Out[20]: datetime.datetime(2026, 1, 23, 20, 39, 39, 714773)
+
+In [21]: print(now)
+2026-01-23 20:39:39.714773
+
+In [22]: print(now.day)
+23
+
+In [23]: now.today()
+Out[23]: datetime.datetime(2026, 1, 23, 20, 41, 4, 569109)
+
+In [24]: print(now.date.today())
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[24], line 1
+----> 1 print(now.date.today())
+
+AttributeError: 'builtin_function_or_method' object has no attribute 'today'
+
+In [25]: print(now.date.today)
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+Cell In[25], line 1
+----> 1 print(now.date.today)
+
+AttributeError: 'builtin_function_or_method' object has no attribute 'today'
+
+In [26]: today = datetime.date.today()
+
+In [27]: print(today)
+2026-01-23
+
+In [28]: fruits
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[28], line 1
+----> 1 fruits
+
+NameError: name 'fruits' is not defined
+
+In [29]: fruit
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[29], line 1
+----> 1 fruit
+
+NameError: name 'fruit' is not defined
+
+In [30]: b
+Out[30]: [2, 3, 4, 6]
+
+In [31]: b?
+Type:        list
+String form: [2, 3, 4, 6]
+Length:      4
+Docstring:
+Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified.
+
+In [32]: def add_numbers(a, b):
+    ...:     """
+    ...:     Add two numbers together
+    ...:
+    ...:     Returns
+    ...:     -------
+    ...:     the_sum : type of arguments
+    ...:     """
+    ...:     return a + b
+    ...:
+
+In [33]: add_numbers(4,5)
+Out[33]: 9
+
+In [34]: add_numbers?
+Signature: add_numbers(a, b)
+Docstring:
+Add two numbers together
+
+Returns
+-------
+the_sum : type of arguments
+File:      d:\cbc\dsai\06-python-da\dsai-python-da-jan-2026-pm\test-app\<ipython-input-32-6caf0b904765>
+Type:      function
+
+In [35]: np.*load*?
+np.__loader__
+np.load
+np.loadtxt
+
+In [36]:
+    ...:
+
+In [36]: def append_element(some_list, element):
+    ...:     some_list.append(element)
+    ...:
+
+In [37]: data = [1, 2, 3]
+
+In [38]: append_element(data, 4)
+
+In [39]: data
+Out[39]: [1, 2, 3, 4]
+
+In [40]: a = "sadeed"
+
+In [41]: a.upper()
+Out[41]: 'SADEED'
+
+In [42]: type(a)
+Out[42]: str
+
+In [43]: import mymathfunc
+
+In [44]: result = mymathfunc.f(5)
+
+In [45]: pi = mymathfunc.PI
+
+In [46]: print(pi)
+3.14159
+
+In [47]: print(mymathfunc.add(5,8))
+------------------------------------------------------------------------
+AttributeError                         Traceback (most recent call last)
+Cell In[47], line 1
+----> 1 print(mymathfunc.add(5,8))
+
+AttributeError: module 'mymathfunc' has no attribute 'add'
+
+In [48]: import mymathfunc
+
+In [49]: result = mymathfunc.PI
+
+In [50]: result
+Out[50]: 3.14159
+
+In [51]: exit
+(myenv) PS D:\CBC\DSAI\06-Python-DA\DSAI-python-da-jan-2026-pm\test-app> ipython
+Python 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 9.9.0 -- An enhanced Interactive Python. Type '?' for help.     
+Tip: Use `F2` or %edit with no arguments to open an empty editor with a temporary file.
+
+In [1]: import mymathfunc
+
+In [2]: result = mymathfunc.add(13,4)
+
+In [3]: ressult
+------------------------------------------------------------------------
+NameError                              Traceback (most recent call last)
+Cell In[3], line 1
+----> 1 ressult
+
+NameError: name 'ressult' is not defined
+
+In [4]: result
+Out[4]: 17
+
+In [5]: result = mymathfunc.subtract(13,4)
+
+In [6]: result
+Out[6]: 9
+
+In [7]: import mymathfunc
