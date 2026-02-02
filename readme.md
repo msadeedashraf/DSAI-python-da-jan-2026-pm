@@ -18,6 +18,12 @@
 pip install ipython
 ```
 
+- To install the numpy
+  
+```
+pip install numpy
+```
+
 ## To activate the virtual environment
 
 - at the root folder (my-code)
@@ -52,6 +58,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ![active-env](/Assets/activated-venv.png)
 
+- You can import the needed packages and libraries
 
 - create a test.ipynb file 
 
