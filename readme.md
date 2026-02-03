@@ -10,6 +10,53 @@
 - [Matplotlib: Visualization with Python](https://matplotlib.org/)
 - [Matplotlib Getting started](https://matplotlib.org/stable/users/getting_started/)
 
+## Installing Python 3.10
+
+- [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe)
+
+- [Python 3.10.11](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe)
+
+- or 
+```
+winget install -e --id Python.Python.3.10.11
+```
+1. First check if the Python launcher exists
+
+```
+py --version
+
+```
+
+- If you get a version (ex: Python 3.10.x)
+
+- Then pip is there — just call it through Python:
+
+```
+py -m pip --version
+py -m pip install --upgrade pip
+
+```
+
+- From now on, use:
+
+```
+py -m pip install <package>
+```
+
+2.  Don’t use pip directly (best practice)
+
+- Even after install, I recommend you run pip like this to avoid PATH issues:
+
+```
+python -m pip install numpy pandas jupyter matplotlib
+```
+- or use
+
+```
+py -m pip ...
+```
+
+
 ## PIP
 
 - In the cmd shell install the ipython
