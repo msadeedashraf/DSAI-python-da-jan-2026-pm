@@ -101,6 +101,19 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\myenv\Scripts\activate
 ```
 
+- If you have requirement file avilable to load required packages
+
+```
+pip install -r requirements.txt
+```
+
+- If you wana Export installed packages into a requirements.txt file 
+
+```
+pip freeze > requirements.txt
+
+```
+
 - verify the venv is activated
 
 ![active-env](/Assets/activated-venv.png)
